@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component match snapshot : With all key 1`] = `
+<div
+  className="card"
+>
+  <header
+    class="card__header"
+  >
+    <div>
+      <h3>
+        Title
+      </h3>
+      <p>
+        Description
+         
+        <a
+          href="https://test.com/test"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Click here
+        </a>
+      </p>
+      <p
+        className="slugs"
+      />
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Card component match snapshot : With missing key 1`] = `
+<div
+  className="card"
+>
+  <header
+    class="card__header"
+  >
+    <div>
+      <h3 />
+      <p>
+        Description
+         
+        <a
+          rel="noreferrer"
+          target="_blank"
+        >
+          Click here
+        </a>
+      </p>
+      <p
+        className="slugs"
+      />
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Card component match snapshot : with missing data 1`] = `null`;

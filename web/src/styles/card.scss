@@ -1,0 +1,42 @@
+.card {
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  min-height: 70px;
+  border: solid 1px;
+}
+
+.card__header p {
+  opacity: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.card__header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.card__header h3 {
+  font-size: 15px;
+}
+
+.slugs {
+  display: inline-flex;
+  background-color: orange;
+  color: red;
+  margin-top: 10px !important;
+  padding: 0.4rem !important;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+
+  Button {
+    margin: 0.2rem;
+  }
+}
