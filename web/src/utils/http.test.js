@@ -18,7 +18,6 @@ describe("utils/http", () => {
       const config = await fetchSearchResultsFromApi("sky", 1, 10);
 
       expect(fetch).toHaveBeenCalledWith("http://localhost:3001/search?query=sky&page=1&limit=10", undefined);
-      expect(config.payload).toEqual(response);
     });
   });
 });
